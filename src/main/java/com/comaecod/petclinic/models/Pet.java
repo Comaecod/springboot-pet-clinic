@@ -1,6 +1,6 @@
 package com.comaecod.petclinic.models;
 
-public class Pet {
+public class Pet extends BaseEntity{
     private PetType petType;
     private Owner owner;
 
